@@ -130,7 +130,8 @@ plot_and_save <- function(data, y_value, plot_title, y_label, file_name) {
       x = "Commit date",
       y = y_label
     ) +
-    theme_minimal()
+    theme_minimal() +
+    theme(plot.background = element_rect(fill="white", colour = "white"))
 
   regression_lines <- data[data$regressions_type == "REGRESSION", ]
   improvement_lines <- data[data$regressions_type == "IMPROVEMENT", ]
