@@ -116,6 +116,7 @@ results <- choose_significant_changes(results, "IMPROVEMENT")
 results <- choose_significant_changes(results, "REGRESSION")
 
 sink("results.md")
+emphasize.strong.rows(which(!is.na(results$regressions_type)))
 pandoc.table(results, style = "rmarkdown", split.table=160)
 sink()
 
