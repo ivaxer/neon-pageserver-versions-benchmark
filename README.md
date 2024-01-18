@@ -12,4 +12,4 @@ Latency:
 Transactions per second:
 ![TPS](./tps.svg)
 
-[Source data](./results.html).
+[Source data](./results.md).
