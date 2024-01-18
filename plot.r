@@ -116,7 +116,7 @@ results <- choose_significant_changes(results, "IMPROVEMENT")
 results <- choose_significant_changes(results, "REGRESSION")
 
 sink("results.md")
-pandoc.table(results, style = "grid", split.table=160)
+pandoc.table(results, style = "rmarkdown", split.table=160)
 sink()
 
 
