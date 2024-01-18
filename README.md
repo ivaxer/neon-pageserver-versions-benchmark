@@ -12,7 +12,7 @@ Latency:
 Transactions per second:
 ![TPS](./tps.svg)
 
-To copy commit hash open raw SVG or look up the [source data](./results.html).
+To copy commit hash open raw SVG or look up the [source data](./results.md).
 
 ## Setup
 
