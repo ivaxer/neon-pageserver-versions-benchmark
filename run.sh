@@ -58,3 +58,8 @@ for commit_hash in $(git -C $neon_repo rev-list --reverse $commit_range -- $your
 
 done
 
+if git status results/ | grep -q Untracked ; then
+  ./plot.r
+  git add results results.md tps.svg latency.svg
+  git commit -m "add results till $(git -C $neon_repo rev-parse --short HEAD)"
+fi
