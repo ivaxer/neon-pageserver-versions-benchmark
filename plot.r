@@ -4,9 +4,9 @@ options(repos = c(CRAN = "https://cloud.r-project.org/"))
 
 library(ggplot2)
 library(svglite)
-library(xtable)
 library(ggrepel)
 library(dplyr)
+library(pander)
 
 
 file_list <- list.files(path = "results/oltp_read_only_8thr_2m/", pattern = "\\.out$", full.names = TRUE)
@@ -115,12 +115,10 @@ choose_significant_changes <- function(results, change_type) {
 results <- choose_significant_changes(results, "IMPROVEMENT")
 results <- choose_significant_changes(results, "REGRESSION")
 
+sink("results.md")
+pandoc.table(results, style = "grid", split.table=160)
+sink()
 
-options(width = 160)
-print(results)
-print(xtable(results),
-  type = "html", file = "results.html"
-)
 
 plot_and_save <- function(data, y_value, plot_title, y_label, file_name) {
   plot <- ggplot(data, aes(x = date, y = !!sym(y_value))) +
