@@ -36,13 +36,6 @@ for commit_hash in $(git -C $neon_repo rev-list --reverse $commit_range -- $your
   cargo build --release --bin pageserver
   popd
 
-  sync
-  echo 3 | sudo tee /proc/sys/vm/drop_caches
-
-  "${neon_repo}/target/release/pageserver" -D /data/ &
-  ps_process=$!
-  ./warmup.sh
-
 
   for i in $(seq 1 3); do
     fn="${results_prefix}/${commit_date}_${commit_hash}_${i}.out"
@@ -50,11 +43,20 @@ for commit_hash in $(git -C $neon_repo rev-list --reverse $commit_range -- $your
       echo "Commit's ${commit_hash} iteration ${i} already tested"
       continue
     fi
-    ./sysbench.sh $fn
-  done
 
-  kill -9 $ps_process
-  wait $ps_process
+    sync
+    echo 3 | sudo tee /proc/sys/vm/drop_caches
+
+    "${neon_repo}/target/release/pageserver" -D /data/ &
+    ps_process=$!
+
+    ./warmup.sh
+
+    ./sysbench.sh $fn
+
+    kill -9 $ps_process
+    wait $ps_process
+  done
 
 done
 
