@@ -15,7 +15,7 @@ sysbench \
   --table-size=20000000 \
   --percentile=99 \
   --report-interval=1 \
-  --time=15 \
+  --time=30 \
   --threads=32 \
   oltp_read_only \
   run
