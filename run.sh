@@ -8,11 +8,9 @@ fi
 neon_repo=$1
 commit_range=$2
 
-your_subdirs="pageserver/ libs/"
-
 results_prefix="./results/oltp_read_only_8thr_2m"
 
-for commit_hash in $(git -C $neon_repo rev-list --reverse $commit_range -- $your_subdirs); do
+for commit_hash in $(git -C $neon_repo rev-list --reverse $commit_range); do
   commit_date=$(git -C $neon_repo show -s --date=format:'%Y%m%d-%H%M%S' --format=%cd $commit_hash)
   echo "Running benchmark for commit ${commit_hash} with date ${commit_date}..."
 
