@@ -481,6 +481,7 @@
 <circle cx='957.09' cy='314.61' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
 <circle cx='957.80' cy='314.61' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
 <circle cx='957.86' cy='322.78' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
+<circle cx='958.44' cy='322.78' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
 <circle cx='958.53' cy='322.78' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
 <line x1='127.76' y1='472.29' x2='127.76' y2='23.32' style='stroke-width: 1.07; stroke: #FF0000; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
 <line x1='298.27' y1='472.29' x2='298.27' y2='23.32' style='stroke-width: 1.07; stroke: #FF0000; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
@@ -488,12 +489,12 @@
 <line x1='528.13' y1='472.29' x2='528.13' y2='23.32' style='stroke-width: 1.07; stroke: #FF0000; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
 <line x1='744.59' y1='472.29' x2='744.59' y2='23.32' style='stroke-width: 1.07; stroke: #00FF00; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
 <line x1='902.21' y1='472.29' x2='902.21' y2='23.32' style='stroke-width: 1.07; stroke: #00FF00; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
-<text x='74.81' y='83.83' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='48.25px' lengthAdjust='spacingAndGlyphs'>eb0a698ad</text>
-<text x='248.57' y='82.87' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='44.96px' lengthAdjust='spacingAndGlyphs'>c07eef8ea</text>
-<text x='437.41' y='83.12' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='46.21px' lengthAdjust='spacingAndGlyphs'>27bdbf5e3</text>
-<text x='515.71' y='90.50' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='43.99px' lengthAdjust='spacingAndGlyphs'>f5344fb85</text>
-<text x='694.44' y='83.13' style='font-size: 8.54px;fill: #00FF00; font-family: "DejaVu Sans";' textLength='45.48px' lengthAdjust='spacingAndGlyphs'>33cb9a68f</text>
-<text x='852.79' y='83.24' style='font-size: 8.54px;fill: #00FF00; font-family: "DejaVu Sans";' textLength='44.76px' lengthAdjust='spacingAndGlyphs'>2a3cfc966</text>
+<text x='74.74' y='82.70' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='48.25px' lengthAdjust='spacingAndGlyphs'>eb0a698ad</text>
+<text x='248.54' y='82.59' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='44.96px' lengthAdjust='spacingAndGlyphs'>c07eef8ea</text>
+<text x='437.40' y='83.14' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='46.21px' lengthAdjust='spacingAndGlyphs'>27bdbf5e3</text>
+<text x='515.47' y='75.56' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='43.99px' lengthAdjust='spacingAndGlyphs'>f5344fb85</text>
+<text x='694.44' y='83.06' style='font-size: 8.54px;fill: #00FF00; font-family: "DejaVu Sans";' textLength='45.48px' lengthAdjust='spacingAndGlyphs'>33cb9a68f</text>
+<text x='852.79' y='83.20' style='font-size: 8.54px;fill: #00FF00; font-family: "DejaVu Sans";' textLength='44.76px' lengthAdjust='spacingAndGlyphs'>2a3cfc966</text>
 </g>
 <g clip-path='url(#cpMC4wMHwxMDA4LjAwfDAuMDB8NTA0LjAw)'>
 <text x='29.72' y='396.13' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='11.19px' lengthAdjust='spacingAndGlyphs'>40</text>
