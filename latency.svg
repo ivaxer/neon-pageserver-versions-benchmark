@@ -529,12 +529,12 @@
 <circle cx='952.44' cy='314.61' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
 <circle cx='952.58' cy='322.78' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
 <circle cx='952.69' cy='314.61' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
-<circle cx='952.71' cy='306.45' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
-<circle cx='955.18' cy='306.45' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
+<circle cx='952.71' cy='322.78' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
+<circle cx='955.18' cy='314.61' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
 <circle cx='955.77' cy='314.61' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
-<circle cx='955.86' cy='289.45' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
+<circle cx='955.86' cy='322.78' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
 <circle cx='956.74' cy='322.78' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
-<circle cx='957.35' cy='306.45' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
+<circle cx='957.35' cy='314.61' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
 <circle cx='957.46' cy='314.61' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
 <circle cx='957.47' cy='314.61' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
 <circle cx='957.72' cy='314.61' r='1.95' style='stroke-width: 0.71; fill: #000000;' />
@@ -546,12 +546,12 @@
 <line x1='508.22' y1='472.29' x2='508.22' y2='23.32' style='stroke-width: 1.07; stroke: #FF0000; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
 <line x1='715.09' y1='472.29' x2='715.09' y2='23.32' style='stroke-width: 1.07; stroke: #00FF00; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
 <line x1='865.73' y1='472.29' x2='865.73' y2='23.32' style='stroke-width: 1.07; stroke: #00FF00; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
-<text x='72.59' y='82.83' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='48.25px' lengthAdjust='spacingAndGlyphs'>eb0a698ad</text>
-<text x='238.82' y='82.66' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='44.96px' lengthAdjust='spacingAndGlyphs'>c07eef8ea</text>
-<text x='419.22' y='83.09' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='46.21px' lengthAdjust='spacingAndGlyphs'>27bdbf5e3</text>
-<text x='495.93' y='90.44' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='43.99px' lengthAdjust='spacingAndGlyphs'>f5344fb85</text>
-<text x='664.94' y='83.10' style='font-size: 8.54px;fill: #00FF00; font-family: "DejaVu Sans";' textLength='45.48px' lengthAdjust='spacingAndGlyphs'>33cb9a68f</text>
-<text x='816.31' y='83.03' style='font-size: 8.54px;fill: #00FF00; font-family: "DejaVu Sans";' textLength='44.76px' lengthAdjust='spacingAndGlyphs'>2a3cfc966</text>
+<text x='72.58' y='83.20' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='48.25px' lengthAdjust='spacingAndGlyphs'>eb0a698ad</text>
+<text x='238.81' y='83.36' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='44.96px' lengthAdjust='spacingAndGlyphs'>c07eef8ea</text>
+<text x='419.24' y='82.95' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='46.21px' lengthAdjust='spacingAndGlyphs'>27bdbf5e3</text>
+<text x='495.81' y='90.47' style='font-size: 8.54px;fill: #FF0000; font-family: "DejaVu Sans";' textLength='43.99px' lengthAdjust='spacingAndGlyphs'>f5344fb85</text>
+<text x='664.94' y='83.11' style='font-size: 8.54px;fill: #00FF00; font-family: "DejaVu Sans";' textLength='45.48px' lengthAdjust='spacingAndGlyphs'>33cb9a68f</text>
+<text x='816.31' y='83.15' style='font-size: 8.54px;fill: #00FF00; font-family: "DejaVu Sans";' textLength='44.76px' lengthAdjust='spacingAndGlyphs'>2a3cfc966</text>
 </g>
 <g clip-path='url(#cpMC4wMHwxMDA4LjAwfDAuMDB8NTA0LjAw)'>
 <text x='29.72' y='396.13' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='11.19px' lengthAdjust='spacingAndGlyphs'>40</text>
