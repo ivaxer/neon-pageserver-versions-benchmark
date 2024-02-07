@@ -11,7 +11,7 @@ commit_range=$2
 results_prefix="./results/oltp_read_only_8thr_2m"
 
 for commit_hash in $(git -C $neon_repo rev-list --reverse $commit_range); do
-  commit_date=$(git -C $neon_repo show -s --date=format:'%Y%m%d-%H%M%S' --format=%cd $commit_hash)
+  commit_date=$(TZ=UTC0 git -C $neon_repo show -s --date=format-local:'%Y%m%d-%H%M%S' --format=%cd $commit_hash)
   echo "Running benchmark for commit ${commit_hash} with date ${commit_date}..."
 
   need_test=false
