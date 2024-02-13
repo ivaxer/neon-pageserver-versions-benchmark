@@ -12,13 +12,17 @@ Latency:
 Transactions per second:
 ![TPS](./tps.svg)
 
+Notes:
+
+- Changepoint at 221531c9d (2024-02-01) is technical, because of changes in test data.
+
 To copy commit hash open raw SVG or look up the [source data](./results.md).
 
 ## Setup
 
 System:
 
-- Processor: Intel Ice Lake (32 CPU cores).
+- Processor: Intel Ice Lake (36 CPU cores).
 - Memory: 72GB RAM.
 - Storage: Local SSD.
 - Operating System: Linux Ubuntu 22.04.3 LTS with a 5.15 kernel.
@@ -32,9 +36,9 @@ Neon:
 
 Database:
 
-- Single tenant with 560GB logical size.
+- Single tenant with 521GB logical size.
 - 100 tables, each containing around 20M rows, generated via [prepare.sh](./prepare.sh) script.
-- LSM state: 654 image layers and 46 deltas (14 L0 and 32 L1).
+- LSM state: 563 image layers and 42 deltas (9 L0 and 33 L1).
 - Both image layers and delta layers have a size of 1 GB each.
 
-Refer to [run.sh](./run.sh) script for workload parameters. It generates approximately 25k rps of GetPage@LSN requests along with around 1k WAL redo events. System has free resources (80% idle CPU), when test is running.
+Refer to [run.sh](./run.sh) script for workload parameters. System has free CPU cores, RAM, IOPS, when test is running.
