@@ -1,0 +1,114 @@
+sysbench 1.1.0-2ca9e3f (using bundled LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 8
+Report intermediate results every 1 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+[ 1s ] thds: 8 tps: 203.53 qps: 3328.25 (r/w/o: 2913.22/0.00/415.03) lat (ms,99%): 63.32 err/s: 0.00 reconn/s: 0.00
+[ 2s ] thds: 8 tps: 241.12 qps: 3862.98 (r/w/o: 3380.73/0.00/482.25) lat (ms,99%): 51.94 err/s: 0.00 reconn/s: 0.00
+[ 3s ] thds: 8 tps: 239.00 qps: 3836.02 (r/w/o: 3358.02/0.00/478.00) lat (ms,99%): 54.83 err/s: 0.00 reconn/s: 0.00
+[ 4s ] thds: 8 tps: 251.99 qps: 4008.78 (r/w/o: 3504.81/0.00/503.97) lat (ms,99%): 46.63 err/s: 0.00 reconn/s: 0.00
+[ 5s ] thds: 8 tps: 254.03 qps: 4072.40 (r/w/o: 3564.35/0.00/508.05) lat (ms,99%): 50.11 err/s: 0.00 reconn/s: 0.00
+[ 6s ] thds: 8 tps: 278.95 qps: 4463.17 (r/w/o: 3905.27/0.00/557.90) lat (ms,99%): 40.37 err/s: 0.00 reconn/s: 0.00
+[ 7s ] thds: 8 tps: 261.01 qps: 4163.21 (r/w/o: 3641.19/0.00/522.03) lat (ms,99%): 47.47 err/s: 0.00 reconn/s: 0.00
+[ 8s ] thds: 8 tps: 261.99 qps: 4211.88 (r/w/o: 3687.89/0.00/523.98) lat (ms,99%): 47.47 err/s: 0.00 reconn/s: 0.00
+[ 9s ] thds: 8 tps: 250.05 qps: 3996.81 (r/w/o: 3496.70/0.00/500.10) lat (ms,99%): 51.02 err/s: 0.00 reconn/s: 0.00
+[ 10s ] thds: 8 tps: 251.92 qps: 4026.72 (r/w/o: 3522.88/0.00/503.84) lat (ms,99%): 48.34 err/s: 0.00 reconn/s: 0.00
+[ 11s ] thds: 8 tps: 253.01 qps: 4053.22 (r/w/o: 3547.19/0.00/506.03) lat (ms,99%): 48.34 err/s: 0.00 reconn/s: 0.00
+[ 12s ] thds: 8 tps: 244.06 qps: 3906.01 (r/w/o: 3417.88/0.00/488.13) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 13s ] thds: 8 tps: 252.93 qps: 4049.81 (r/w/o: 3543.96/0.00/505.85) lat (ms,99%): 50.11 err/s: 0.00 reconn/s: 0.00
+[ 14s ] thds: 8 tps: 261.06 qps: 4178.01 (r/w/o: 3655.88/0.00/522.13) lat (ms,99%): 48.34 err/s: 0.00 reconn/s: 0.00
+[ 15s ] thds: 8 tps: 263.01 qps: 4174.21 (r/w/o: 3648.18/0.00/526.03) lat (ms,99%): 46.63 err/s: 0.00 reconn/s: 0.00
+[ 16s ] thds: 8 tps: 260.00 qps: 4208.03 (r/w/o: 3688.03/0.00/520.00) lat (ms,99%): 48.34 err/s: 0.00 reconn/s: 0.00
+[ 17s ] thds: 8 tps: 260.00 qps: 4130.03 (r/w/o: 3610.03/0.00/520.00) lat (ms,99%): 48.34 err/s: 0.00 reconn/s: 0.00
+[ 18s ] thds: 8 tps: 255.98 qps: 4103.65 (r/w/o: 3591.69/0.00/511.96) lat (ms,99%): 50.11 err/s: 0.00 reconn/s: 0.00
+[ 19s ] thds: 8 tps: 255.01 qps: 4082.20 (r/w/o: 3572.18/0.00/510.03) lat (ms,99%): 46.63 err/s: 0.00 reconn/s: 0.00
+[ 20s ] thds: 8 tps: 251.00 qps: 4019.04 (r/w/o: 3517.03/0.00/502.00) lat (ms,99%): 51.02 err/s: 0.00 reconn/s: 0.00
+[ 21s ] thds: 8 tps: 261.95 qps: 4160.21 (r/w/o: 3636.31/0.00/523.90) lat (ms,99%): 49.21 err/s: 0.00 reconn/s: 0.00
+[ 22s ] thds: 8 tps: 270.99 qps: 4376.77 (r/w/o: 3834.80/0.00/541.97) lat (ms,99%): 46.63 err/s: 0.00 reconn/s: 0.00
+[ 23s ] thds: 8 tps: 258.06 qps: 4114.89 (r/w/o: 3598.78/0.00/516.11) lat (ms,99%): 47.47 err/s: 0.00 reconn/s: 0.00
+[ 24s ] thds: 8 tps: 251.01 qps: 4027.20 (r/w/o: 3525.17/0.00/502.02) lat (ms,99%): 50.11 err/s: 0.00 reconn/s: 0.00
+[ 25s ] thds: 8 tps: 253.99 qps: 4067.80 (r/w/o: 3559.82/0.00/507.97) lat (ms,99%): 49.21 err/s: 0.00 reconn/s: 0.00
+[ 26s ] thds: 8 tps: 259.00 qps: 4116.94 (r/w/o: 3598.94/0.00/517.99) lat (ms,99%): 50.11 err/s: 0.00 reconn/s: 0.00
+[ 27s ] thds: 8 tps: 255.02 qps: 4087.32 (r/w/o: 3577.28/0.00/510.04) lat (ms,99%): 51.02 err/s: 0.00 reconn/s: 0.00
+[ 28s ] thds: 8 tps: 256.88 qps: 4126.04 (r/w/o: 3612.28/0.00/513.76) lat (ms,99%): 48.34 err/s: 0.00 reconn/s: 0.00
+[ 29s ] thds: 8 tps: 247.11 qps: 3966.69 (r/w/o: 3472.48/0.00/494.21) lat (ms,99%): 52.89 err/s: 0.00 reconn/s: 0.00
+[ 30s ] thds: 8 tps: 250.91 qps: 3987.61 (r/w/o: 3485.78/0.00/501.82) lat (ms,99%): 52.89 err/s: 0.00 reconn/s: 0.00
+[ 31s ] thds: 8 tps: 257.03 qps: 4105.45 (r/w/o: 3591.39/0.00/514.06) lat (ms,99%): 48.34 err/s: 0.00 reconn/s: 0.00
+[ 32s ] thds: 8 tps: 238.98 qps: 3830.71 (r/w/o: 3352.75/0.00/477.96) lat (ms,99%): 54.83 err/s: 0.00 reconn/s: 0.00
+[ 33s ] thds: 8 tps: 231.02 qps: 3697.36 (r/w/o: 3235.32/0.00/462.05) lat (ms,99%): 59.99 err/s: 0.00 reconn/s: 0.00
+[ 34s ] thds: 8 tps: 235.04 qps: 3751.59 (r/w/o: 3281.52/0.00/470.07) lat (ms,99%): 54.83 err/s: 0.00 reconn/s: 0.00
+[ 35s ] thds: 8 tps: 242.01 qps: 3886.09 (r/w/o: 3402.08/0.00/484.01) lat (ms,99%): 54.83 err/s: 0.00 reconn/s: 0.00
+[ 36s ] thds: 8 tps: 239.01 qps: 3822.20 (r/w/o: 3344.17/0.00/478.02) lat (ms,99%): 53.85 err/s: 0.00 reconn/s: 0.00
+[ 37s ] thds: 8 tps: 237.99 qps: 3799.79 (r/w/o: 3323.82/0.00/475.97) lat (ms,99%): 54.83 err/s: 0.00 reconn/s: 0.00
+[ 38s ] thds: 8 tps: 231.00 qps: 3721.07 (r/w/o: 3259.06/0.00/462.01) lat (ms,99%): 56.84 err/s: 0.00 reconn/s: 0.00
+[ 39s ] thds: 8 tps: 226.01 qps: 3607.16 (r/w/o: 3155.14/0.00/452.02) lat (ms,99%): 61.08 err/s: 0.00 reconn/s: 0.00
+[ 40s ] thds: 8 tps: 232.00 qps: 3713.05 (r/w/o: 3249.04/0.00/464.01) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 41s ] thds: 8 tps: 235.92 qps: 3767.72 (r/w/o: 3295.88/0.00/471.84) lat (ms,99%): 56.84 err/s: 0.00 reconn/s: 0.00
+[ 42s ] thds: 8 tps: 248.97 qps: 3975.47 (r/w/o: 3477.54/0.00/497.93) lat (ms,99%): 51.02 err/s: 0.00 reconn/s: 0.00
+[ 43s ] thds: 8 tps: 248.02 qps: 3984.38 (r/w/o: 3488.33/0.00/496.05) lat (ms,99%): 51.94 err/s: 0.00 reconn/s: 0.00
+[ 44s ] thds: 8 tps: 236.08 qps: 3768.22 (r/w/o: 3296.07/0.00/472.15) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 45s ] thds: 8 tps: 235.94 qps: 3787.11 (r/w/o: 3315.22/0.00/471.89) lat (ms,99%): 56.84 err/s: 0.00 reconn/s: 0.00
+[ 46s ] thds: 8 tps: 234.04 qps: 3730.58 (r/w/o: 3262.51/0.00/468.07) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 47s ] thds: 8 tps: 242.02 qps: 3870.37 (r/w/o: 3386.32/0.00/484.05) lat (ms,99%): 49.21 err/s: 0.00 reconn/s: 0.00
+[ 48s ] thds: 8 tps: 232.94 qps: 3713.03 (r/w/o: 3247.15/0.00/465.88) lat (ms,99%): 63.32 err/s: 0.00 reconn/s: 0.00
+[ 49s ] thds: 8 tps: 235.05 qps: 3787.80 (r/w/o: 3317.70/0.00/470.10) lat (ms,99%): 56.84 err/s: 0.00 reconn/s: 0.00
+[ 50s ] thds: 8 tps: 242.00 qps: 3862.01 (r/w/o: 3378.01/0.00/484.00) lat (ms,99%): 53.85 err/s: 0.00 reconn/s: 0.00
+[ 51s ] thds: 8 tps: 233.93 qps: 3738.89 (r/w/o: 3271.03/0.00/467.86) lat (ms,99%): 55.82 err/s: 0.00 reconn/s: 0.00
+[ 52s ] thds: 8 tps: 237.99 qps: 3814.90 (r/w/o: 3338.91/0.00/475.99) lat (ms,99%): 56.84 err/s: 0.00 reconn/s: 0.00
+[ 53s ] thds: 8 tps: 225.03 qps: 3612.54 (r/w/o: 3162.47/0.00/450.07) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 54s ] thds: 8 tps: 230.97 qps: 3662.45 (r/w/o: 3200.52/0.00/461.93) lat (ms,99%): 59.99 err/s: 0.00 reconn/s: 0.00
+[ 55s ] thds: 8 tps: 237.99 qps: 3828.83 (r/w/o: 3352.85/0.00/475.98) lat (ms,99%): 53.85 err/s: 0.00 reconn/s: 0.00
+[ 56s ] thds: 8 tps: 238.03 qps: 3803.42 (r/w/o: 3327.37/0.00/476.05) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 57s ] thds: 8 tps: 236.99 qps: 3795.86 (r/w/o: 3321.88/0.00/473.98) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 58s ] thds: 8 tps: 237.07 qps: 3800.08 (r/w/o: 3325.95/0.00/474.13) lat (ms,99%): 56.84 err/s: 0.00 reconn/s: 0.00
+[ 59s ] thds: 8 tps: 231.01 qps: 3690.21 (r/w/o: 3228.18/0.00/462.03) lat (ms,99%): 58.92 err/s: 0.00 reconn/s: 0.00
+[ 60s ] thds: 8 tps: 247.01 qps: 3931.09 (r/w/o: 3437.08/0.00/494.01) lat (ms,99%): 53.85 err/s: 0.00 reconn/s: 0.00
+[ 61s ] thds: 8 tps: 257.98 qps: 4150.73 (r/w/o: 3634.76/0.00/515.97) lat (ms,99%): 49.21 err/s: 0.00 reconn/s: 0.00
+[ 62s ] thds: 8 tps: 246.00 qps: 3940.94 (r/w/o: 3448.95/0.00/491.99) lat (ms,99%): 55.82 err/s: 0.00 reconn/s: 0.00
+[ 63s ] thds: 8 tps: 245.02 qps: 3929.27 (r/w/o: 3439.24/0.00/490.03) lat (ms,99%): 55.82 err/s: 0.00 reconn/s: 0.00
+[ 64s ] thds: 8 tps: 236.95 qps: 3770.20 (r/w/o: 3296.30/0.00/473.90) lat (ms,99%): 61.08 err/s: 0.00 reconn/s: 0.00
+[ 65s ] thds: 8 tps: 232.01 qps: 3706.08 (r/w/o: 3242.07/0.00/464.01) lat (ms,99%): 58.92 err/s: 0.00 reconn/s: 0.00
+[ 66s ] thds: 8 tps: 238.03 qps: 3802.51 (r/w/o: 3326.45/0.00/476.06) lat (ms,99%): 55.82 err/s: 0.00 reconn/s: 0.00
+[ 67s ] thds: 8 tps: 239.00 qps: 3830.98 (r/w/o: 3352.98/0.00/478.00) lat (ms,99%): 56.84 err/s: 0.00 reconn/s: 0.00
+[ 68s ] thds: 8 tps: 232.01 qps: 3730.22 (r/w/o: 3266.19/0.00/464.03) lat (ms,99%): 61.08 err/s: 0.00 reconn/s: 0.00
+[ 69s ] thds: 8 tps: 232.00 qps: 3686.99 (r/w/o: 3222.99/0.00/464.00) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 70s ] thds: 8 tps: 231.99 qps: 3740.83 (r/w/o: 3276.86/0.00/463.98) lat (ms,99%): 56.84 err/s: 0.00 reconn/s: 0.00
+[ 71s ] thds: 8 tps: 241.01 qps: 3839.23 (r/w/o: 3357.20/0.00/482.03) lat (ms,99%): 56.84 err/s: 0.00 reconn/s: 0.00
+[ 72s ] thds: 8 tps: 236.92 qps: 3806.69 (r/w/o: 3332.86/0.00/473.84) lat (ms,99%): 54.83 err/s: 0.00 reconn/s: 0.00
+[ 73s ] thds: 8 tps: 241.06 qps: 3835.02 (r/w/o: 3352.89/0.00/482.13) lat (ms,99%): 59.99 err/s: 0.00 reconn/s: 0.00
+[ 74s ] thds: 8 tps: 227.00 qps: 3651.01 (r/w/o: 3197.01/0.00/454.00) lat (ms,99%): 59.99 err/s: 0.00 reconn/s: 0.00
+[ 75s ] thds: 8 tps: 241.94 qps: 3878.05 (r/w/o: 3394.16/0.00/483.88) lat (ms,99%): 55.82 err/s: 0.00 reconn/s: 0.00
+[ 76s ] thds: 8 tps: 235.01 qps: 3744.11 (r/w/o: 3274.09/0.00/470.01) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 77s ] thds: 8 tps: 226.05 qps: 3616.85 (r/w/o: 3164.75/0.00/452.11) lat (ms,99%): 63.32 err/s: 0.00 reconn/s: 0.00
+[ 78s ] thds: 8 tps: 243.98 qps: 3917.67 (r/w/o: 3429.71/0.00/487.96) lat (ms,99%): 50.11 err/s: 0.00 reconn/s: 0.00
+[ 79s ] thds: 8 tps: 234.03 qps: 3750.44 (r/w/o: 3282.38/0.00/468.05) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 80s ] thds: 8 tps: 235.83 qps: 3737.27 (r/w/o: 3265.62/0.00/471.66) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 81s ] thds: 8 tps: 232.17 qps: 3734.67 (r/w/o: 3270.34/0.00/464.33) lat (ms,99%): 56.84 err/s: 0.00 reconn/s: 0.00
+[ 82s ] thds: 8 tps: 229.99 qps: 3680.77 (r/w/o: 3220.80/0.00/459.97) lat (ms,99%): 58.92 err/s: 0.00 reconn/s: 0.00
+[ 83s ] thds: 8 tps: 235.01 qps: 3775.20 (r/w/o: 3305.18/0.00/470.03) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 84s ] thds: 8 tps: 231.96 qps: 3706.38 (r/w/o: 3242.45/0.00/463.92) lat (ms,99%): 59.99 err/s: 0.00 reconn/s: 0.00
+[ 85s ] thds: 8 tps: 235.98 qps: 3763.74 (r/w/o: 3291.77/0.00/471.97) lat (ms,99%): 57.87 err/s: 0.00 reconn/s: 0.00
+[ 86s ] thds: 8 tps: 240.04 qps: 3841.63 (r/w/o: 3361.55/0.00/480.08) lat (ms,99%): 54.83 err/s: 0.00 reconn/s: 0.00
+FATAL: PQexecPrepared() failed: 7 could not read block 325510 in rel 1663/16393/16761.0 from page server at lsn 13F/7D05F308
+FATAL: PQexecPrepared() failed: 7 could not read block 15965 in rel 1663/16393/16718.0 from page server at lsn 13F/7D05F308
+FATAL: PQexecPrepared() failed: 7 could not read block 30353 in rel 1663/16393/17612.0 from page server at lsn 13F/7D05F308
+FATAL: PQexecPrepared() failed: 7 could not read block 47282 in rel 1663/16393/16450.0 from page server at lsn 13F/7D05F308
+FATAL: PQexecPrepared() failed: 7 could not read block 98638 in rel 1663/16393/18874.0 from page server at lsn 13F/7D05F308
+FATAL: PQexecPrepared() failed: 7 could not read block 26126 in rel 1663/16393/16708.0 from page server at lsn 13F/7D05F308
+FATAL: PQexecPrepared() failed: 7 could not read block 49069 in rel 1663/16393/18139.0 from page server at lsn 13F/7D05F308
+FATAL: `thread_run' function failed: /usr/local/share/sysbench/oltp_common.lua:426: SQL error, errno = 0, state = '58030': could not read block 30353 in rel 1663/16393/17612.0 from page server at lsn 13F/7D05F308
+FATAL: `thread_run' function failed: /usr/local/share/sysbench/oltp_common.lua:426: SQL error, errno = 0, state = '58030': could not read block 15965 in rel 1663/16393/16718.0 from page server at lsn 13F/7D05F308
+FATAL: `thread_run' function failed: /usr/local/share/sysbench/oltp_common.lua:439: SQL error, errno = 0, state = '58030': could not read block 98638 in rel 1663/16393/18874.0 from page server at lsn 13F/7D05F308
+FATAL: `thread_run' function failed: /usr/local/share/sysbench/oltp_common.lua:426: SQL error, errno = 0, state = '58030': could not read block 325510 in rel 1663/16393/16761.0 from page server at lsn 13F/7D05F308
+FATAL: `thread_run' function failed: /usr/local/share/sysbench/oltp_common.lua:426: SQL error, errno = 0, state = '58030': could not read block 47282 in rel 1663/16393/16450.0 from page server at lsn 13F/7D05F308
+FATAL: `thread_run' function failed: /usr/local/share/sysbench/oltp_common.lua:426: SQL error, errno = 0, state = '58030': could not read block 26126 in rel 1663/16393/16708.0 from page server at lsn 13F/7D05F308
+FATAL: PQexecPrepared() failed: 7 could not read block 2986 in rel 1663/16393/17993.0 from page server at lsn 13F/7D05F308
+FATAL: `thread_run' function failed: /usr/local/share/sysbench/oltp_common.lua:426: SQL error, errno = 0, state = '58030': could not read block 49069 in rel 1663/16393/18139.0 from page server at lsn 13F/7D05F308
+FATAL: `thread_run' function failed: /usr/local/share/sysbench/oltp_common.lua:426: SQL error, errno = 0, state = '58030': could not read block 2986 in rel 1663/16393/17993.0 from page server at lsn 13F/7D05F308
